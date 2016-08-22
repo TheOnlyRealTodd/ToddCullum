@@ -1,0 +1,108 @@
+@charset "utf-8";
+.myNavbar{
+	background: rgba(0,0,0,0.2);
+	font-weight:bold;
+}
+.navbar .nav, .navbar .nav > li
+{
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+
+.navbar-inner {
+    text-align:center;
+	font-size: 36px;
+	background: transparent;
+
+	
+}
+.brand{
+	display: none;
+}
+body{
+
+	
+	font-family: Roboto, Arial, sans-serif;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+.maincolumn a{
+	color: white;
+	border: 1px solid white;
+	padding: 5px;
+	background: rgba(0,0,0,0.2);
+}
+#portrait{
+	height: 40%;
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+.btn{
+	color: white;
+}
+.extra{
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.95)
+    );
+	}
+	
+	.clear-fix{
+		clear:both;
+		}
+		
+.bg1{
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.75)
+    ), url(img/background3.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bg2{
+	background: url(img/background4.jpeg);
+	background-repeat: no-repeat;
+}
+.portfolioRow img{
+	border: 2px solid black;
+	border-radius: 8px;
+	
+}
+.portfolioRow img:hover {
+	border: 2px solid white;
+}
+
+#topHeader{
+	margin-top: 40px;
+}
+.formColumn{
+	width: 800px;
+	margin-left: 35%;
+}
+.dividers{
+	width: 800px;
+}
+.iGCustom{
+	text-shadow:none;
+}
+input:invalid:focus, textarea:invalid:focus {
+  border: 3px solid red;
+   background: #ffe6e6 url(http://webdesigntutsplus.s3.amazonaws.com/tuts/214_html5_form_validation/demo/images/invalid.png) no-repeat 97% center;
+}
+
+input:valid:focus, textarea:valid:focus {
+  border: 3px solid green;
+  background: #e6ffe6 url(http://webdesigntutsplus.s3.amazonaws.com/tuts/214_html5_form_validation/demo/images/valid.png) no-repeat 97% center;
+}
+.portfolioRow > div{
+	background: rgba(0,0,0,0.5);
+	border: 1px solid white;
+	border-radius: 8px;
+}
+.portfolioRow div > img{
+	margin-left: 12%;
