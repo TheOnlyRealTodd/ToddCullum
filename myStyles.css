@@ -81,7 +81,7 @@ body{
 	margin-top: 40px;
 }
 .formColumn{
-	width: 800px;
+	width: 40%;
 	margin-left: 35%;
 }
 .dividers{
@@ -106,3 +106,4 @@ input:valid:focus, textarea:valid:focus {
 }
 .portfolioRow div > img{
 	margin-left: 12%;
+}
