@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Web and Desktop Software Development specializing in ASP.NET and .NET Framework.">
+<meta name="keywords" content="HTML,CSS,JavaScript,Bootstrap,jQuery,CSS3,Web,Development,Software,programmer,developer,C#,CSharp,.NET,ASP.NET,MVC,API,responsive">
+<meta name="author" content="Todd Cullum">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 <title>Todd Cullum Web and Desktop Development</title>
 
@@ -18,8 +21,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-<div class="containerfluid bg1">
+<body class="bg1">
+<div class="containerfluid "> <!--Put BG HERE -->
 <div class="navbar navbar-fixed-top myNavbar">
 <div class="navbar-inner">
     <div class="container">
@@ -93,11 +96,12 @@
   </div> <!--1st bg end of container -->
   <h1 class="text-center" id="portfolioAnchor">Portfolio</h1>
   <hr class="dividers">
-  <div class="row portfolioRow">
+  <div class="container portfolioRow">
     <div class=" col-md-4"><h2 class="text-center">Random Quotation Gen</h2><img src="img/Quotation.png" alt="Quotation Generator"/> <p id="quotationDescription">This is a random quotation generator which utilizes JavaScript jQuery and AJAX to make an API call to a random quotation endpoint.</p></div>
     <div class=" col-md-4"><h2 class="text-center">Wikipedia Viewer</h2><img src="img/wikiCamp.png" alt="Customer Wikipedia Viewer"/><p id="wikiDescription">This is a custom-themed Wikipedia Viewer which utilizes the Wikipedia API to display search results or a random page in an iFrame (embedded page).</p> </div>
     <div class=" col-md-4"><h2 class="text-center">Beer Finder</h2><img src="img/AleHub.png" alt="AleHub - ASP.NET MVC application that pairs consumers with their favorite beers, taprooms, and breweries"/><p id="aleHubDescription">This is a fully-involved project that will help consumers find their favorite beer in their area and discover new bars and breweries to drink beer at. It will also display the up-to-date and best happy hour deals and times as well as a current taplist for each bar.</p> </div>
   </div>
+  
   <div class="row">
     <div class=" col-md-4"> </div>
     <div class=" col-md-4"> </div>
@@ -109,25 +113,24 @@
   
   <form action="MAILTO:info@toddcullum.com" method="post" enctype="text/plain">
 <div class="form-group">
-    <label for="nameInput">Name</label>
-    <input type="name" class="form-control" id="nameInput" placeholder="Enter your name" required>
+    <label for="nameInput" class="myForm">Name</label>
+    <input type="name" class="form-control myForm" id="nameInput" placeholder="Enter your name" required>
   </div>
 <div class="form-group">
-    <label for="emailInput">Email address</label>
+    <label for="emailInput" class="myForm">Email address</label>
     <div class="input-group"><span class="input-group-addon iGCustom">@</span>
-    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email" required pattern="^\S+@(([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6})$">
+    <input type="email" class="form-control myForm" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email" required pattern="^\S+@(([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6})$">
     </div>
     <small id="emailHelp" class="form-text text-muted">Todd will never share your email with anyone else.</small>
   </div>
 <div class="form-group">
-    <label for="textArea">Work Needed</label>
-    <textarea class="form-control" id="textArea" rows="6" aria-describedby="quoteInstructions" required></textarea>
+    <label for="textArea" class="myForm">Work Needed</label>
+    <textarea class="form-control myForm" id="textArea" rows="6" aria-describedby="quoteInstructions" required></textarea>
     <small id="quoteInstructions" class="form-text text-muted">Please give as many details as you can or a contact email or phone where Todd can speak with you on the details of the project.</small>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 <input type="reset" value="Reset" class="btn btn-danger">
 </form>
-  
   </div></div>
   <hr class="dividers">
   <div class="row">
